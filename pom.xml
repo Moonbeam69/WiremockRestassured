@@ -1,10 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.ontestautomation.workshops.wiremock</groupId>
-	<artifactId>wiremock-workshop</artifactId>
+	<groupId>mine.wiremockrestassured</groupId>
+	<artifactId>wiremockrestassured</artifactId>
 	<version>1.0.0</version>
-	<description>Project containing examples, exercises and answers for my open source WireMock workshop</description>
+	<description>Basic example of interaction between wiremock and restassured</description>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>17</maven.compiler.source>
@@ -53,8 +54,6 @@
 			<version>2.0.11</version>
 			<scope>test</scope>
 		</dependency>
-
-
 	</dependencies>
 	<build>
 		<plugins>

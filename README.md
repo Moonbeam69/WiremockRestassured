@@ -1,4 +1,4 @@
-### Basic class that creates
+### Basic test class that creates
 
-- WireMock API
+- WireMock APIs
 - RestAssured call to validate the mocked responses

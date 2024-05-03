@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: exercises.WireMockExercises2Test
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.523 s - in exercises.WireMockExercises2Test

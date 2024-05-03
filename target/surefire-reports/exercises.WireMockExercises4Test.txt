@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: exercises.WireMockExercises4Test
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.258 s <<< FAILURE! - in exercises.WireMockExercises4Test
+exercises.WireMockExercises4Test.testExercise401  Time elapsed: 0.055 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at exercises.WireMockExercises4Test.testExercise401(WireMockExercises4Test.java:80)
+
+exercises.WireMockExercises4Test.testExercise402(int)[1]  Time elapsed: 0.068 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at exercises.WireMockExercises4Test.testExercise402(WireMockExercises4Test.java:110)
+
+exercises.WireMockExercises4Test.testExercise402(int)[2]  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at exercises.WireMockExercises4Test.testExercise402(WireMockExercises4Test.java:110)
+
+exercises.WireMockExercises4Test.testExercise402(int)[3]  Time elapsed: 0.026 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at exercises.WireMockExercises4Test.testExercise402(WireMockExercises4Test.java:110)
+

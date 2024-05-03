@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: exercises.WireMockExercises6dot2Test
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.132 s <<< FAILURE! - in exercises.WireMockExercises6dot2Test
+exercises.WireMockExercises6dot2Test.anIncomingHttpDELETEShouldAlsoBeRejected  Time elapsed: 0.027 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <405> but was <500>.
+
+	at exercises.WireMockExercises6dot2Test.anIncomingHttpDELETEShouldAlsoBeRejected(WireMockExercises6dot2Test.java:107)
+
+exercises.WireMockExercises6dot2Test.anIncomingHttpPATCHShouldAlsoBeRejected  Time elapsed: 0.028 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <405> but was <500>.
+
+	at exercises.WireMockExercises6dot2Test.anIncomingHttpPATCHShouldAlsoBeRejected(WireMockExercises6dot2Test.java:88)
+
+exercises.WireMockExercises6dot2Test.anIncomingHttpGETShouldNotBeMatched  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <500>.
+
+	at exercises.WireMockExercises6dot2Test.anIncomingHttpGETShouldNotBeMatched(WireMockExercises6dot2Test.java:127)
+
+exercises.WireMockExercises6dot2Test.anIncomingHttpPUTShouldBeRejected  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <405> but was <500>.
+
+	at exercises.WireMockExercises6dot2Test.anIncomingHttpPUTShouldBeRejected(WireMockExercises6dot2Test.java:69)
+
